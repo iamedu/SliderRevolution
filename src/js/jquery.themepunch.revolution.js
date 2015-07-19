@@ -682,7 +682,7 @@
 		// IS MOBILE ?? //
 		//////////////////
 		function is_mobile() {
-		    var agents = ['android', 'webos', 'iphone', 'ipad', 'blackberry','Android', 'webos', ,'iPod', 'iPhone', 'iPad', 'Blackberry', 'BlackBerry'];
+		    var agents = ['android', 'webos', 'iphone', 'ipad', 'blackberry','Android', 'webos', ,'iPod', 'iPhone', 'iPad', 'BlackBerry'];
 			var ismobile=false;
 		    for(i in agents) {
 
