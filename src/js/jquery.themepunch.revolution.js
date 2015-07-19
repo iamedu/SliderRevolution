@@ -4825,7 +4825,7 @@
 									// CHANGE to TweenLite.  if Yoyo and Repeat is used. Dont forget to laod the Right Tools for it !!
 									if (nextcaption.hasClass("customin")) {
 										  if (animobject != nextcaption)
-											  tl.add(TweenLite.set(nextcaption, { opacity:1,scaleX:1,scaleY:1,rotationX:0,rotationY:0,rotationZ:0,skewX:0,skewY:0,z:0,x:0,y:0,visibility:'visible',opacity:1,delay:0,overwrite:"all"}));
+											  tl.add(TweenLite.set(nextcaption, { opacity:1,scaleX:1,scaleY:1,rotationX:0,rotationY:0,rotationZ:0,skewX:0,skewY:0,z:0,x:0,y:0,visibility:'visible',delay:0,overwrite:"all"}));
 										  frm.visibility = "hidden";
 										  endfrm.visibility = "visible";
 										  endfrm.overwrite = "all";
@@ -4840,7 +4840,7 @@
 											frm.visibility = "visible";
 											frm.transformPerspective = 600;
 											if (animobject != nextcaption)
-											  tl.add(TweenLite.set(nextcaption, { opacity:1,scaleX:1,scaleY:1,rotationX:0,rotationY:0,rotationZ:0,skewX:0,skewY:0,z:0,x:0,y:0,visibility:'visible',opacity:1,delay:0,overwrite:"all"}));
+											  tl.add(TweenLite.set(nextcaption, { opacity:1,scaleX:1,scaleY:1,rotationX:0,rotationY:0,rotationZ:0,skewX:0,skewY:0,z:0,x:0,y:0,visibility:'visible',delay:0,overwrite:"all"}));
 
 											endfrm.visibility = "visible";
 											endfrm.delay = mdelay;
