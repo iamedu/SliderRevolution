@@ -684,7 +684,7 @@
 		function is_mobile() {
 		    var agents = ['android', 'webos', 'iphone', 'ipad', 'blackberry','Android', 'webos', ,'iPod', 'iPhone', 'iPad', 'BlackBerry'];
 			var ismobile=false;
-		    for(i in agents) {
+		    for(var i in agents) {
 
 			    if (navigator.userAgent.split(agents[i]).length>1) {
 		            ismobile = true;
